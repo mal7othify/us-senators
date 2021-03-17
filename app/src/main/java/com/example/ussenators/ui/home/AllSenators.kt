@@ -16,13 +16,10 @@ fun AllSenators(
     senators: List<Senator>,
     navController: NavHostController
 ) {
-
-
     fun navigateToUser(senator: Senator) {
         val senatorJson = Gson().toJson(senator)
         navController.navigate("senatorDetail/$senatorJson")
     }
-
     LazyColumn(
         Modifier.fillMaxWidth(),
         contentPadding = PaddingValues(8.dp)

@@ -61,7 +61,11 @@ fun SenatorRowItem(
                     modifier = Modifier.padding(bottom = 4.dp),
                     color = Color(0xFF8b8da1),
                 )
-                Text(text = senator.description, style = MaterialTheme.typography.caption)
+                Text(
+                    text = senator.description,
+                    style = MaterialTheme.typography.caption,
+                    color = Color.DarkGray
+                )
             }
         }
     }
