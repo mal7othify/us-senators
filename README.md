@@ -2,7 +2,7 @@
 
 ## :scroll: Description
 
-This android app displays a list of U.S. senators and their corresponding information.
+This android app displays a list of U.S. senators and their corresponding information from a JSON file in an alphabetical order.
 
 #### Tools:
 
